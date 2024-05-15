@@ -1,4 +1,4 @@
 {
     "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "interactive" //Ajouté automatiquement par le plugin RedHat
+    "java.configuration.updateBuildConfiguration": "automatic" //Ajouté automatiquement par le plugin RedHat
 }

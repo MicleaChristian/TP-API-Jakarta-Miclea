@@ -7,4 +7,5 @@ Je pars en exam on en reparle plus tard
 
 entrée de la route -> controller -> service -> repository -> bdd
 
-
+Corrigé les quelques erreurs que je comprenais (problèmes d'imports / declarations)
+Reste Trois erreurs (functional.exception.class (certainement un problème d'importation, à voir)), @Slf4j (une autre importation qui manque j'imagine) et (UserDto User) certainement le Dto qui manque.
