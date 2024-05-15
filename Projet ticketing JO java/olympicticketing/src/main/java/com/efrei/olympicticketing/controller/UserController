@@ -1,8 +1,8 @@
 import com.efrei.Olympicticketing.service.UserService;
 
-@RestController
+@RestController // sert à appeller le service et lui dit de trasformer les donnés
 @RequestMapping("/api")
-public class UserController extends AotController {
+public class UserController { //peut être extend un truc rtfm
     private final UserService userService;
 
     //les routes :

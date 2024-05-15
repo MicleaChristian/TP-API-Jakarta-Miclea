@@ -5,12 +5,12 @@ import com.efrei.olympicticketing.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import com.efrei.olympicticketing.model.User;
 
-@Service
+@Service //transforme les donnés et les envoies dans le repository
 @Slf4j
 public class UserService {
     private final UserRepository userRepository;
 
-    @Transactional(rollbackOn = FunctionalException.class)
+    @Transactional(rollbackOn = FunctionalException.class)//
     public User addUsers (UserDto user) {
         userRepository.addUsers(user) ;
         User newUser = userRepository.findUserName(user.name);

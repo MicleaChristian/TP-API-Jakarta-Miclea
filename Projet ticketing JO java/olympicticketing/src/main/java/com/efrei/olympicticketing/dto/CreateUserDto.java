@@ -3,7 +3,7 @@ package com.efrei.olympicticketing.dto;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-
+//Le dto est une représentation 
 public class CreateUserDto {
 
     @NotBlank(message = "Username is required")

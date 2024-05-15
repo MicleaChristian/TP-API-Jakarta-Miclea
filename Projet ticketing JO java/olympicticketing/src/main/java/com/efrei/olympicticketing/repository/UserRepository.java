@@ -5,6 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.efrei.olympicticketing.model.User;
 
-@Repository
+@Repository    //accès à la base de donnés
 public interface UserRepository extends JpaRepository<User, Long>{
+
 }
